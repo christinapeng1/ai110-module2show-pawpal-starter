@@ -7,6 +7,13 @@
 - Briefly describe your initial UML design.
 - What classes did you include, and what responsibilities did you assign to each?
 
+Three core actions a user should be able to perform with PawPal is to enter pet tasks, checkoff completed tasks, and add their pet.
+
+For classes, we will need a Task class which holds the name of the task, a description, and time of the task. It should have the ability to be checked off.
+We will also need a Checklist class that holds the tasks.
+It should also have a Pet class that holds basic information about the pet like its name, age, and breed.
+It will also have a class for the Owner so the owner can enter information about themselves.
+
 **b. Design changes**
 
 - Did your design change during implementation?
