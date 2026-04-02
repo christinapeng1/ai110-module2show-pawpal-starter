@@ -18,7 +18,8 @@ It will also have a class for the Owner so the owner can enter information about
 
 - Did your design change during implementation?
 - If yes, describe at least one change and why you made it.
-
+ 
+ Yes, my design changed during implementation. One change I made was adding a priority attribute to the tasks because CoPilot suggested that have a priority score may be helpful for the owner to determine which tasks require focus.
 ---
 
 ## 2. Scheduling Logic and Tradeoffs
