@@ -22,6 +22,15 @@ Your final app should:
 - Display the plan clearly (and ideally explain the reasoning)
 - Include tests for the most important scheduling behaviors
 
+## Smarter Scheduling
+
+PawPal+ now includes smarter scheduling features to help pet owners manage their tasks more effectively:
+
+- **Conflict Detection**: Automatically identifies overlapping tasks and alerts the user with clear warnings.
+- **Task Filtering**: Allows users to filter tasks by pet name and completion status for better organization.
+- **Priority-Based Planning**: Considers task priority and time constraints to generate an optimized daily schedule.
+- **Enhanced Explanations**: Provides reasoning behind the generated schedule to help users understand the plan.
+
 ## Getting started
 
 ### Setup

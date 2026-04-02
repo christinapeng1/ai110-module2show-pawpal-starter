@@ -29,10 +29,21 @@ It will also have a class for the Owner so the owner can enter information about
 - What constraints does your scheduler consider (for example: time, priority, preferences)?
 - How did you decide which constraints mattered most?
 
+The scheduler considers the following constraints:
+  - **Time**: Tasks are scheduled based on their specified time, and conflicts are detected if multiple tasks overlap.
+  - **Priority**: Tasks can have different priority levels, which can be used to determine their importance in future enhancements.
+  - **Pet-specific tasks**: Tasks are associated with specific pets, ensuring that each pet's schedule is managed independently while still detecting conflicts across pets.
+
+The decision to prioritize time as the most important constraint was based on the need to avoid scheduling conflicts, which could lead to missed or overlapping tasks. Time conflicts are critical to address first, as they directly impact the feasibility of completing tasks.
+
 **b. Tradeoffs**
 
 - Describe one tradeoff your scheduler makes.
 - Why is that tradeoff reasonable for this scenario?
+
+One tradeoff the scheduler makes is that it only detects conflicts and provides warnings rather than resolving them automatically. This means the user must manually adjust the schedule to resolve any conflicts.
+
+This tradeoff is reasonable because it keeps the scheduler lightweight and avoids overly complex logic for automatic conflict resolution, which may not align with the user's preferences. By providing warnings, the scheduler empowers the user to make informed decisions while maintaining simplicity and flexibility.
 
 ---
 
